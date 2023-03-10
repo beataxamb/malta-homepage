@@ -1,0 +1,36 @@
+.navigation {
+    margin: 24px;
+}
+
+.navigation__list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.navigation__listItem {
+    margin: 5px;
+    display: inline;
+}
+
+.navigation__link {
+    color: white;
+    background-color: rgb(119, 119, 191);
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: wheat;
+    background-color: rgb(48, 48, 167);
+}
+
+.navigation__changeStyle {
+    margin-top: 10px;
+}
+
+.navigation__changeStyle--dark {
+    color: #eee;
+    background: #222;
+}

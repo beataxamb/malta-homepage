@@ -1,0 +1,41 @@
+.section__tableContainer {
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+
+.table__caption {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.table__header {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(237, 164, 164);
+}
+
+.table__row {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: justify;
+    background-color: rgb(237, 164, 164);
+}
+
+.table__cell {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.table__cell:hover {
+    background-color: antiquewhite;
+}

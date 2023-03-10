@@ -1,0 +1,44 @@
+.section {
+    padding: 15px;
+}
+
+.section__headline {
+    color: rgba(100, 100, 203, 0.912);
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 1px 2px 22px rgb(101 91 91 / 91%);
+}
+
+.section__text {
+    max-width: 1000px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.section__image {
+    max-width: 49%;
+    height: auto;
+}
+
+.section__supriseText {
+    color: rgb(164, 7, 255);
+}
+
+.section__link {
+    text-decoration: none;
+    color: rgba(100, 100, 203, 0.912);
+}
+
+.section__link:focus {
+    outline: 2px dotted darkred;
+}
+
+.section__link:hover {
+    color: red;
+    border-bottom: 1px dotted;
+    outline: none;
+}
+
+.section__link:active {
+    color: aqua;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Malta</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/header.css" rel="stylesheet" />
+  <link href="css/navigation.css" rel="stylesheet" />
+  <link href="css/section.css" rel="stylesheet" />
+  <link href="css/table.css" rel="stylesheet" />
+  <link href="css/footer.css" rel="stylesheet" />
+  <script defer src="js/script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body class="body">
+  <div class="wrapper js-wrapper">
+    <header class="header">
+      <h1 class="header__pageTitle">Malta, Republika Malty</h1>
+
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__listItem">
+            <a class="navigation__link" href="#informacje-ogolne">INFORMACJE OGÓLNE</a>
+          </li>
+          <li class="navigation__listItem">
+            <a class="navigation__link" href="#klimat">KLIMAT</a>
+          </li>
+          <li class="navigation__listItem">
+            <a class="navigation__link" href="#atrakcje">ATRAKCJE TURYSTYCZNE</a>
+          </li>
+          <li class="navigation__listItem">
+            <button class="navigation__changeStyle js-changeStyle">
+              Włącz tryb <span class="js-themeName">ciemny</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <img class="header__mainImage" src="https://i.ibb.co/7G1qQvw/Malta-view.jpg" alt="Malta-view" />
+      <br />
+      <a class="header__downloadPhoto" href="images/Malta-view.jpg" download="Malta-view.jpg">Pobierz zdjęcie</a>
+    </header>
+    <main>
+      <section id="informacje-ogolne" class="section">
+        <h2 class="section__headline">Informacje ogólne</h2>
+        <p class="section__text">
+          Republika Malty leży w Europie w basenie Morza Śródziemnego.
+          <strong>Archipelag Wysp Maltańskich obejmuje zamieszkane Maltę, Gozo i
+            Comino oraz drobniejsze jednostki.</strong>
+          Najbliższą sąsiadką jest Sycylia. Porozumiemy się tutaj po maltańsku i
+          po angielsku. Nizinny kraj jest świetnie rozwinięty, statystyki
+          poziomużycia wyglądają naprawdę nieźle. Za sporą część dochodu
+          narodowego odpowiedzialny jest przemysł turystyczny. Kwitnie tutaj
+          branża filmowa oraz hazard, a bezrobocie praktycznie nie istnieje.
+          Stolicą Malty jest Valletta, w całości wpisana na
+          <em>Listę Światowego Dziedzictwa UNESCO</em>, czyniąc ją stolicą z
+          zabytkami o niebywałym zagęszczeniu.
+        </p>
+        <img class="section__image" src="https://i.ibb.co/YR6t3sr/Valletta.jpg" alt="Stolica Valetta" />
+        <img class="section__image" src="https://i.ibb.co/FgRtbnS/Valetta2.jpg" alt="Valetta z lotu ptaka" />
+      </section>
+      <section id="klimat" class="section">
+        <h2 class="section__headline">Klimat Malty</h2>
+        <p class="section__text">
+          Malta położona jest w strefie
+          <i>klimatu subtropikalnego typu śródziemnomorskiego</i>. Dzięki temu
+          mamy tutaj krótkie i łagodne zimy oraz długie, upalne lato. Średnia
+          temperatura powietrza w ciągu roku w dzień wynosi aż 23 st. C. To
+          również rekordowa jak na nasz kontynent liczba słonecznych dni.
+          <b>Okres letni trwa na wyspie Malta aż 8 miesięcy.</b> Nie zaskoczą
+          nas ani wichury, ani gwałtowne opady deszczu czy niskie temperatury. W
+          ciągu całego roku dni deszczowe wahają się od kilku do
+          kilkudziesięciu. W zimie temperatura w ciągu dnia często oscyluje w
+          okolicach 20 stopni, w nocy spadając do minimalnie 10 stopni. W lecie
+          zaś temperatury powyżej 30 stopni w ciągu dnia i 25 w nocy to
+          standard. Zaś
+          <b>Morze nadaje się do kąpieli od czerwca do mniej więcej końca
+            listopada</b>.
+        </p>
+        <div class="section__tableContainer">
+          <table class="table">
+            <caption class="table__caption">
+              Średnie temperatury na Malcie
+            </caption>
+            <tr>
+              <th scope="col"></th>
+              <th class="table__header" scope="col">Sty</th>
+              <th class="table__header" scope="col">Lut</th>
+              <th class="table__header" scope="col">Mar</th>
+              <th class="table__header" scope="col">Kwi</th>
+              <th class="table__header" scope="col">Maj</th>
+              <th class="table__header" scope="col">Cze</th>
+              <th class="table__header" scope="col">Lip</th>
+              <th class="table__header" scope="col">Sie</th>
+              <th class="table__header" scope="col">Wrz</th>
+              <th class="table__header" scope="col">Paź</th>
+              <th class="table__header" scope="col">Lis</th>
+              <th class="table__header" scope="col">Gru</th>
+            </tr>
+            <tr>
+              <th class="table__row" scope="row">
+                Temperatura powietrza w dzień [°C]
+              </th>
+              <td class="table__cell">15</td>
+              <td class="table__cell">16</td>
+              <td class="table__cell">17</td>
+              <td class="table__cell">19</td>
+              <td class="table__cell">23</td>
+              <td class="table__cell">28</td>
+              <td class="table__cell">31</td>
+              <td class="table__cell">31</td>
+              <td class="table__cell">28</td>
+              <td class="table__cell">24</td>
+              <td class="table__cell">20</td>
+              <td class="table__cell">17</td>
+            </tr>
+            <tr>
+              <th class="table__row" scope="row">
+                Temperatura powietrza w nocy [°C]
+              </th>
+              <td class="table__cell">9</td>
+              <td class="table__cell">9</td>
+              <td class="table__cell">10</td>
+              <td class="table__cell">12</td>
+              <td class="table__cell">15</td>
+              <td class="table__cell">18</td>
+              <td class="table__cell">21</td>
+              <td class="table__cell">22</td>
+              <td class="table__cell">20</td>
+              <td class="table__cell">17</td>
+              <td class="table__cell">14</td>
+              <td class="table__cell">11</td>
+            </tr>
+            <tr>
+              <th class="table__row" scope="row">Temperatura wody [°C]</th>
+              <td class="table__cell">17</td>
+              <td class="table__cell">16</td>
+              <td class="table__cell">16</td>
+              <td class="table__cell">17</td>
+              <td class="table__cell">19</td>
+              <td class="table__cell">22</td>
+              <td class="table__cell">23</td>
+              <td class="table__cell">27</td>
+              <td class="table__cell">26</td>
+              <td class="table__cell">24</td>
+              <td class="table__cell">21</td>
+              <td class="table__cell">18</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section id="atrakcje" class="section">
+        <h2 class="section__headline">Atrakcje turystyczne</h2>
+        <p class="section__text">
+          <b>Malta i Gozo to wyspy stanowiące raj dla nurków z Europy</b>.
+          Wybrzeże z polami solnymi, ze strzelistymi skałami, jaskiniami
+          podwodnymi, malowniczymi klifami oraz przejrzyste morze z zatopionymi
+          wrakami bardzo temu sprzyjają. Nadmorskie kurorty i większe,
+          piaszczyste plaże znajdują się głównie w północnej części Malty.
+        </p>
+        <img class="section__image" src="https://i.ibb.co/DV3RGsp/Malta-beach.jpg" alt="Malta plaża" />
+        <img class="section__image" src="https://i.ibb.co/nCr9gwv/Malta-beach2.jpg" alt="Malta inna plaża" />
+        <div class="section__text">
+          <p>
+            Comino, plażowy raj z cieśniną Błękitna Laguna oraz z Kryształową
+            Laguną i imprezami w wodzie.
+          </p>
+          <p>
+            Zatoka Anchor Bay niedaleko wioski Mellieha ze słynną Popeye
+            Village.
+          </p>
+          <p>Wioska Marsaxlokk z niedzielnym targiem rybnym.</p>
+          <p>
+            Klify Dingli, cud natury z najwyższym punktem na Malcie (253 m
+            n.p.m.), kaplicą oraz widokiem na wysepkę Filfla.
+          </p>
+          <p>
+            Mdina, czyli Miasto Ciszy, średniowieczna stolica Malty z piękną
+            architekturą, pałacami i murami obronnymi. Wjazd możliwy jest
+            jedynie dla mieszkańców oraz uprawnionych służb.
+          </p>
+          <p>Valletta, Europejska Stolica Kultury 2018.</p>
+        </div>
+        <p>
+          <b>I wiele, wiele innych atrakcji. Aby je wszystkie zobaczyć...</b>
+        </p>
+        <button class="js-suprise">Kliknij tutaj!</button>
+        <p class="section__supriseText js-supriseText">:) :) :)</p>
+        <button class="js-button">Spodobała Ci się Malta?</button>
+        <p>
+          <a class="section__link" target="_blank" rel="noreferrer noopener" href="https://www.ryanair.com/pl/pl"
+            title="Oficjalna Strona Ryanair">Wyszukaj połączenie lotnicze (otwiera się w nowej karcie)</a>.
+        </p>
+        <p>
+          Jeśli masz ochotę, dowiedzieć się
+          <a class="section__link" target="_blank" rel="noreferrer noopener" href="https://pl.wikipedia.org/wiki/Malta"
+            title="Artykuł na Wikipedii, opowiadający o Malcie">
+            wiecej o tej uroczej wyspie </a>.
+        </p>
+      </section>
+    </main>
+    <hr />
+    <footer class="footer">
+      COPYRIGHTS © 2023 ALL RIGHTS RESERVED BY BEATA AMBROZIAK
+    </footer>
+  </div>
+</body>
+
+</html>
