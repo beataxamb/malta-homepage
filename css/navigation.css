@@ -19,6 +19,7 @@
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .navigation__link:hover {
